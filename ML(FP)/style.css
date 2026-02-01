@@ -1,0 +1,92 @@
+body {
+  margin: 0;
+  font-family:'Times New Roman', Times, serif;
+  background-image: url('heart2.jpg');
+  background-size: cover;
+  background-position: center;
+  color: #ffffff;
+  overflow: scroll;
+}
+
+.background-overlay {
+  background-color: rgba(255, 255, 255, 0.6);
+  min-height: 100vh;
+  padding: 20px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header-container {
+  background-color: #00acc1;
+  padding: 10px;
+  border-radius: 8px;
+  text-align: center;
+  width: 100%;
+  max-width: 100%;
+  box-shadow: 0 0 10px #000;
+}
+
+.main-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1200px;
+  margin-top: 20px;
+  height: calc(100vh - 150px);
+  box-sizing: border-box;
+}
+
+.left-container, .right-container {
+  flex: 1;
+  margin: 0 10px;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #000;
+  color: #333;
+  overflow-y: auto;
+}
+
+h2 {
+  color: #00acc1;
+  margin-bottom: 20px;
+}
+
+.form-block {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  background-color: #00acc1;
+  color: #ffffff;
+  padding: 8px;
+  font-weight: bold;
+  border-radius: 4px 4px 0 0;
+}
+
+input, select {
+  width: 100%;
+  height: 40px;
+  padding: 8px;
+  background-color: #d0f4f9;
+  color: #000;
+  border: none;
+  border-radius: 0 0 4px 4px;
+  font-weight: bold;
+  box-sizing: border-box;
+}
+
+button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #00acc1;
+  color: #fff;
+  font-weight: bold;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+}

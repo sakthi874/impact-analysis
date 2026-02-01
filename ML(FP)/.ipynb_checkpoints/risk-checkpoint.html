@@ -1,0 +1,37 @@
+<html><head>
+    <title>Heart disease impact Analysis</title>
+    <link rel="stylesheet" href="risk.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script></head>
+    <body>
+        <header>
+            <h1>RISK OF ORGAN</h1>
+            <P> SELECT SYMPTOMS TO ASSESS POTENTIAL ORGAN RISK</P>
+        </header>
+        <FORM ID="RISKFORM">
+            <fieldset>
+      <legend>Choose Symptoms:</legend>
+      
+      <label><input type="checkbox" value="liver" class="symptom">Jaundice</label><br>
+      <label><input type="checkbox" value="liver" class="symptom">Abdominal Swelling and Fluid Buildup</label><br>
+      <label><input type="checkbox" value="liver" class="symptom">Dark Urine (Liver related)</label><br>
+      <label><input type="checkbox" value="liver" class="symptom">Itchy Skin</label><br>
+      
+      <label><input type="checkbox" value="kidneys" class="symptom">Swelling or reduced urine output</label><br>
+      <label><input type="checkbox" value="kidneys" class="symptom">Cognitive Impairment (Kidneys related)</label><br>
+      <label><input type="checkbox" value="kidneys" class="symptom">Delirium (Kidneys related)</label><br>
+
+      <label><input type="checkbox" value="brain" class="mental symptom">Confusion and Disorientation</label><br>
+      <label><input type="checkbox" value="brain" class="mental symptom">Memory Loss</label><br>
+      <label><input type="checkbox" value="brain" class="mental symptom">Depression and Anxiety (Brain related)</label><br>
+      
+      <label><input type="checkbox" value="lungs" class="symptom">Anxiety and panic attacks (Lungs related)</label><br>
+      <label><input type="checkbox" value="lungs" class="symptom">Inflammation (Lungs related)</label><br>
+      <label><input type="checkbox" value="lungs" class="symptom">Reduced blood flow (Lungs related)</label><br>
+
+    </fieldset>
+            <button type="button" id="checkrisk">Check risk</button>
+        </FORM>
+        <div id="result"></div>
+        <script src="scriptrisk.js"></script>
+    </body>
+</html>

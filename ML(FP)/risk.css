@@ -1,0 +1,132 @@
+body{
+    font-family:'fantasy';
+      background-image: url('original.jpg');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      color: #473b1c;
+       
+
+}
+
+@keyframes animate-background {
+  0% {
+    background-position: 0% 0%;
+  }
+  50% {
+    background-position: 100% 100%;
+  }
+  100% {
+    background-position: 0% 0%;
+}
+}
+
+header{
+    text-align:center;
+    background: transparent;
+    color:rgb(51, 251, 241);
+    padding:1.5rem;
+    border-radius:8px;
+}
+form{
+    margin: 2rem auto;
+    max-width:500px;
+  background: #8bd8db;
+  opacity: 0.7;
+  padding: 1rem;
+  border-radius:8px;
+}
+button{
+    margin-top: 1rem;
+    padding:0.5rem 1rem;
+    background: #005f73;
+   color:white;
+   border:none;
+   border-radius:4px;
+   cursor:pointer;
+}
+#result{
+    margin-top: 2rem;
+    padding: 1rem;
+  background: #e1e6ea;
+  opacity:0.6;
+  border-radius:4px;
+  max-width:500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* --- NEW CHART STYLES for Graph Model Look --- */
+
+/* Ensures the chart area is clearly defined */
+#result {
+    /* Keep existing styles, just ensure opacity is manageable for the graph */
+    margin-top: 2rem;
+    padding: 1rem;
+    background: #e1e6ea;
+    opacity: 0.9; /* Increased opacity for better chart visibility */
+    border-radius: 8px;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.chart-container {
+    padding: 15px;
+    margin-top: 20px;
+    /* Clean white background for the graph area */
+    background: #ffffff;
+    border: 1px solid #cceeff; /* Light blue border */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+/* Header for the chart */
+.chart-container h3 {
+    text-align: center;
+    color: #005f73;
+    border-bottom: 2px solid #005f73;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+}
+
+.chart-bar-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    padding: 5px 0;
+}
+
+.organ-label {
+    /* Styles for the Y-axis label (organ name) */
+    width: 100px; 
+    font-weight: 700;
+    color: #473b1c; /* Use the main body color */
+    text-align: right;
+    padding-right: 15px;
+    flex-shrink: 0;
+    font-size: 0.9em;
+}
+
+.bar-wrapper {
+    /* Acts as the background/track of the bar (the X-axis) */
+    flex-grow: 1; 
+    background-color: #f0f0f0; 
+    border-radius: 5px;
+    height: 35px; /* Taller bars */
+    overflow: hidden;
+    position: relative;
+}
+
+.bar {
+    height: 100%;
+    /* Gradient for a professional 3D look */
+    background: linear-gradient(90deg, #33fbf1, #005f73); 
+    color: white;
+    text-align: right; /* Align text to the end of the bar */
+    padding-right: 10px;
+    line-height: 35px; 
+    font-weight: 700;
+    font-size: 0.9em;
+    transition: width 0.8s ease-out; /* Slower, smoother animation */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}

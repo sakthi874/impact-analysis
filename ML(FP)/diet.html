@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>HeartWise Input Form</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="background-overlay">
+    <div class="header-container">
+      <h1>HeartWise Input Features</h1>
+      <p>Comprehensive Health & Lifestyle Assessment</p>
+    </div>
+
+    <div class="main-container">
+      <!-- Physical Health Section -->
+      <div class="left-container">
+        <h2>Physical Health</h2>
+        <form action="/predict" method="POST">
+          <div class="form-block"><label>Age</label><input type="number" name="age" required></div>
+          <div class="form-block"><label>Gender</label>
+            <select name="gender" required>
+              <option value="">Select</option><option value="male">Male</option>
+              <option value="female">Female</option><option value="other">Other</option>
+            </select>
+          </div>
+          <div class="form-block"><label>Height (cm)</label><input type="number" name="height" required></div>
+          <div class="form-block"><label>Weight (kg)</label><input type="number" name="weight" required></div>
+          <div class="form-block"><label>BMI</label><input type="number" name="bmi" step="0.1" required></div>
+          <div class="form-block"><label>Blood Pressure</label><input type="number" name="bp" required></div>
+          <div class="form-block"><label>Cholesterol Level</label><input type="number" name="cholesterol" required></div>
+          <div class="form-block"><label>Blood Sugar Level</label><input type="number" name="sugar" required></div>
+          <div class="form-block"><label>Chronic Disease</label>
+            <select name="chronicDisease" required>
+              <option value="">Select</option><option value="yes">Yes</option><option value="no">No</option>
+            </select>
+          </div>
+        </form>
+      </div>
+
+      <!-- Lifestyle & Habits Section -->
+      <div class="right-container">
+        <h2>Lifestyle & Habits</h2>
+        <form action="/predict" method="POST">
+          <div class="form-block"><label>Sleep Hours (per day)</label><input type="number" name="sleepHours" step="0.1" required></div>
+          <div class="form-block"><label>Alcohol Consumption</label>
+            <select name="alcohol" required>
+              <option value="">Select</option><option value="none">None</option>
+              <option value="occasional">Occasional</option><option value="frequent">Frequent</option>
+            </select>
+          </div>
+          <div class="form-block"><label>Smoking Habit</label>
+            <select name="smoking" required>
+              <option value="">Select</option><option value="non-smoker">Non-Smoker</option>
+              <option value="occasional">Occasional</option><option value="frequent">Frequent</option>
+            </select>
+          </div>
+          <div class="form-block"><label>Stress Eating</label>
+            <select name="stressEating" required>
+              <option value="">Select</option><option value="yes">Yes</option><option value="no">No</option>
+            </select>
+          </div>
+          <div class="form-block"><label>Dietary Habits</label>
+            <select name="dietaryHabits" required>
+              <option value="">Select</option><option value="balanced">Balanced</option>
+              <option value="high-fat">High Fat</option><option value="high-carb">High Carb</option>
+              <option value="low-protein">Low Protein</option>
+            </select>
+          </div>
+          <div class="form-block"><label>Sodium Sensitivity</label>
+            <select name="sodiumSensitivity" required>
+              <option value="">Select</option><option value="yes">Yes</option><option value="no">No</option>
+            </select>
+          </div>
+          <div class="form-block"><label>Sugar Sensitivity</label>
+            <select name="sugarSensitivity" required>
+              <option value="">Select</option><option value="yes">Yes</option><option value="no">No</option>
+            </select>
+          </div>
+          <button type="submit">Submit</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
