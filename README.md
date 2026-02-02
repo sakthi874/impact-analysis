@@ -9,31 +9,17 @@ S. Sakthi, M. Swathi
 Heart Disease Impact Analysis is a machine learning–based healthcare project designed to predict which organ is likely to be affected first in patients suffering from heart disease.
 Unlike traditional systems that only detect the presence of heart disease, this project goes a step further by analyzing structured clinical data to identify organ-specific risks such as impact on the brain, kidney, or lungs. The system uses multiple machine learning algorithms, with a strong focus on Decision Tree models for their interpretability and clinical relevance. The final model is deployed through a web-based interface, enabling healthcare professionals to make early, data-driven decisions.
 
-🔍 Key Features
+🔍 Key Features :
 
-Predicts the first organ likely to be affected due to heart disease
+* Predicts the first organ likely to be affected due to heart disease
 
-Uses clinical parameters such as:
+* Uses clinical parameters such as:  Cholesterol levels , Blood pressure ,Chest pain type  ,  Age and medical history .
 
-Cholesterol levels
+* Compares multiple ML models: Decision Tree , Random Forest , Neural Networks .
 
-Blood pressure
+* Displays feature importance for better medical interpretability .
 
-Chest pain type
-
-Age and medical history
-
-Compares multiple ML models:
-
-Decision Tree
-
-Random Forest
-
-Neural Networks
-
-Displays feature importance for better medical interpretability
-
-Provides real-time predictions via a web interface
+* Provides real-time predictions via a web interface .
 
 ⚙️ Technologies Used :
 
