@@ -4,13 +4,10 @@
 S. Sakthi, M. Swathi
 (Final-year MCA Students)
 
-📝 Project Overview
+📝 Project Overview :
 
 Heart Disease Impact Analysis is a machine learning–based healthcare project designed to predict which organ is likely to be affected first in patients suffering from heart disease.
-
-Unlike traditional systems that only detect the presence of heart disease, this project goes a step further by analyzing structured clinical data to identify organ-specific risks such as impact on the brain, kidney, or lungs.
-
-The system uses multiple machine learning algorithms, with a strong focus on Decision Tree models for their interpretability and clinical relevance. The final model is deployed through a web-based interface, enabling healthcare professionals to make early, data-driven decisions.
+Unlike traditional systems that only detect the presence of heart disease, this project goes a step further by analyzing structured clinical data to identify organ-specific risks such as impact on the brain, kidney, or lungs. The system uses multiple machine learning algorithms, with a strong focus on Decision Tree models for their interpretability and clinical relevance. The final model is deployed through a web-based interface, enabling healthcare professionals to make early, data-driven decisions.
 
 🔍 Key Features
 
@@ -38,75 +35,43 @@ Displays feature importance for better medical interpretability
 
 Provides real-time predictions via a web interface
 
-⚙️ Technologies Used
+⚙️ Technologies Used :
 
-Programming Language: Python 3.8+
+* Programming Language: Python 3.8+
 
-Machine Learning:
+* Machine Learning:  Decision Tree ,Random Forest , Neural Networks .
 
-Decision Tree
+* Libraries & Tools: Jupyter Notebook , Pandas, NumPy , Matplotlib , Scikit-learn
 
-Random Forest
+* Web Framework: Flask
 
-Neural Networks
+* Dataset Source: Kaggle (Healthcare Dataset)
 
-Libraries & Tools:
+🧠 Machine Learning Workflow: 
 
-Jupyter Notebook
+1.Data Collection    : Clinical and demographic patient data
 
-Pandas, NumPy
+2.Data Preprocessing : Missing value handling ,Normalization & encoding                  
 
-Matplotlib
+3.Feature Selection : Correlation analysis , Recursive Feature Elimination              
 
-Scikit-learn
+4.Model Training    : Train&evaluate multiple algorithms  
 
-Web Framework: Flask
+5.Prediction        : Predict organ vulnerability with confidence scores
 
-Dataset Source: Kaggle (Healthcare Dataset)
+6.Evaluation        : Accuracy, Precision, Recall, F1-score     
 
-🧠 Machine Learning Workflow
-
-Data Collection
-
-Clinical and demographic patient data
-
-Data Preprocessing
-
-Missing value handling
-
-Normalization & encoding
-
-Feature Selection
-
-Correlation analysis
-
-Recursive Feature Elimination
-
-Model Training
-
-Train and evaluate multiple algorithms
-
-Prediction
-
-Predict organ vulnerability with confidence scores
-
-Evaluation
-
-Accuracy, Precision, Recall, F1-score
-
-Deployment
-
-Flask-based web interface
+7.Deployment        : Flask-based web interface
 
 🌐 Web Application Features
 
-Patient data input form
+* Patient data input form
 
-Real-time organ risk prediction
+* Real-time organ risk prediction
 
-Visualization of feature importance
+* Visualization of feature importance
 
-Easy-to-use interface for clinicians
+* Easy-to-use interface for clinicians
 
 📁 Project Structure
 Heart Disease Impact Analysis/
@@ -146,10 +111,10 @@ This project demonstrates how machine learning can be effectively applied in hea
 
 🚀 Future Enhancements
 
-Integration with wearable health devices
+* Integration with wearable health devices
 
-Real-time patient monitoring
+* Real-time patient monitoring
 
-Federated learning for privacy
+* Federated learning for privacy
 
-Multi-language support
+* Multi-language support
